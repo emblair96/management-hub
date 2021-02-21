@@ -1,11 +1,13 @@
 import '../App.css';
-import DataTable from './DataTable'
+import EmployeeList from './EmployeeList';
+import DataTable from './DataTable';
 
 function App() {
   return (
     <div className="App">
       <h1>Hi</h1>
-      <DataTable />
+      <EmployeeList/>
+      {/* <DataTable /> */}
     </div>
   );
 }
