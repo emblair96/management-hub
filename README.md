@@ -27,13 +27,10 @@ npm --i
 
 ## Usage
 
-![quick-README-generator](Assets/quick-README-generator.gif)
+![management-hub-app-demo](Assets/quick-README-generator.gif)
 
 ## Links
 * [GitHub Pages](https://emblair96.github.io/management-hub/)
-
-## Credits
-* 
 
 ## License
 Copyright &copy; Licensed under the MIT license.
