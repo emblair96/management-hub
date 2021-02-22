@@ -30,7 +30,7 @@ npm --i
 ![quick-README-generator](Assets/quick-README-generator.gif)
 
 ## Links
-* [GitHub Pages]()
+* [GitHub Pages](https://emblair96.github.io/management-hub/)
 
 ## Credits
 * 
