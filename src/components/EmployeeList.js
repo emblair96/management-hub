@@ -1,8 +1,5 @@
 import React, {useEffect, useState} from 'react';
 import DataTable from './DataTable';
-import { Avatar } from '@material-ui/core';
-
-
 
 export default function EmployeeList() {
   const [users, setUsers] = useState([]);
@@ -22,15 +19,12 @@ export default function EmployeeList() {
   }, []);
 
   const employeeList = users.map((user, index) => (
-    ({"id": index, "firstName": user.name.first, "lastName": user.name.last, "email": user.email, "phoneNumber": user.phone, "photo": <img src={user.picture.thumbail} />
+    ({"id": index+=1, "firstName": user.name.first, "lastName": user.name.last, "email": user.email, "phoneNumber": user.phone, "photo": user.picture.thumbnail
    })))
 
   useEffect(() => console.log("LIST", employeeList))
 
   return (
-    <>
-    <h1>List of employees</h1>
     <DataTable employeeList={employeeList}/>
-    </>
   )
-}
+};

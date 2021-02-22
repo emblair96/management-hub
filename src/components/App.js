@@ -1,13 +1,12 @@
 import '../App.css';
+import Heading from './Heading';
 import EmployeeList from './EmployeeList';
-import DataTable from './DataTable';
 
 function App() {
   return (
     <div className="App">
-      <h1>Hi</h1>
+      <Heading />
       <EmployeeList/>
-      {/* <DataTable /> */}
     </div>
   );
 }
