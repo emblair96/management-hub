@@ -19,10 +19,14 @@ export default function EmployeeList() {
   }, []);
 
   const employeeList = users.map((user, index) => (
-    ({"id": index+=1, "firstName": user.name.first, "lastName": user.name.last, "email": user.email, "phoneNumber": user.phone, "photo": user.picture.thumbnail
+    ({
+      "id": index+=1, 
+      "firstName": user.name.first, 
+      "lastName": user.name.last, 
+      "email": user.email, 
+      "phoneNumber": user.phone, 
+      "photo": user.picture.thumbnail
    })))
-
-  useEffect(() => console.log("LIST", employeeList))
 
   return (
     <DataTable employeeList={employeeList}/>

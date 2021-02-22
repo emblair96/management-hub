@@ -40,7 +40,6 @@ export default function DataTable({employeeList}) {
   ];
 
   return (
-     
     <Container>
       <div style={{ height: 600, width: '100%' }}>
         <DataGrid 
