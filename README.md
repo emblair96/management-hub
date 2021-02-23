@@ -26,10 +26,10 @@ npm --i
 
 ## Usage
 ### Static View
-<img src="assets/management-hub-app-demo.png" width="300" style="margin-right: 10px;"/>
+<img src="assets/management-hub-app-demo.png" width="500" style="margin-right: 10px;"/>
 
 ### Live Demo
-<img src="assets/management-hub-live-demo.gif" width="300"/>
+<img src="assets/management-hub-live-demo.gif" width="500"/>
 
 ## Links
 * [GitHub Pages](https://emblair96.github.io/management-hub/)
