@@ -6,12 +6,11 @@
 [Installation](#installation)  
 [Usage](#usage)  
 [Links](#links)  
-[Credits](#credits)  
 [License](#license)  
 [Questions](#questions)  
 
 ## Description
-Quickly generate a professional README from your terminal!  Follow a series of prompts and a README file will generate in the current directory with markdown syntax.
+Built for the purpose of helping soldify my understanding of foundational React principles, this app lets you view your employee directory & get the most relevant info at a glance with a simple, clean layout.  
 
 ## Technologies
 * JavaScript
@@ -26,8 +25,11 @@ npm --i
 ```
 
 ## Usage
+### Static View
+<img src="assets/management-hub-app-demo.png" width="300" style="margin-right: 10px;"/>
 
-![management-hub-app-demo](Assets/quick-README-generator.gif)
+### Live Demo
+<img src="assets/management-hub-live-demo.gif" width="300"/>
 
 ## Links
 * [GitHub Pages](https://emblair96.github.io/management-hub/)
